@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "@tradeshift/elements/src/vars.css";
+import "./App.css";
+import { ElementsBoard } from "./components/ElementsBoard";
+import { ModalComponent } from "./components/ModalComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <ElementsBoard title="Main page">
+        <header className="app-header">
+          <img src={logo} className="app-logo" alt="Logo"></img>
+        </header>
+        <ModalComponent />
+      </ElementsBoard>
     </div>
   );
 }
