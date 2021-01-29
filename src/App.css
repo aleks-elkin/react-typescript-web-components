@@ -21,6 +21,21 @@
   pointer-events: none;
 }
 
+.top-block {
+  display: flex;
+  background: blue;
+  padding: 5px;
+}
+
+.checkbox-container {
+  background: red;
+}
+
+.top-block-end {
+  flex: 1 0 400зч;
+  background: green;
+}
+
 .button-group {
   display: flex;
   flex-direction: row;

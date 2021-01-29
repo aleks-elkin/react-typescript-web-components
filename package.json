@@ -3,23 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.5.0",
-    "@testing-library/react": "^10.0.3",
-    "@testing-library/user-event": "^10.1.0",
-    "@tradeshift/elements": "^0.14.0",
-    "@tradeshift/elements.board": "^0.14.0",
-    "@tradeshift/elements.button": "^0.14.0",
-    "@tradeshift/elements.modal": "^0.14.0",
-    "@types/jest": "^25.2.1",
-    "@types/node": "^12.12.37",
-    "@types/react": "^16.9.34",
-    "@types/react-dom": "^16.9.6",
-    "@webcomponents/webcomponentsjs": "^2.4.3",
-    "react": "^16.13.1",
-    "react-app-polyfill": "^1.0.6",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "typescript": "^3.8.3"
+    "@rooks/use-mutation-observer": "^4.8.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "@tradeshift/elements": "^0.19.0",
+    "@tradeshift/elements.aside": "^0.19.0",
+    "@tradeshift/elements.board": "^0.19.0",
+    "@tradeshift/elements.button": "^0.19.0",
+    "@tradeshift/elements.button-group": "^0.19.0",
+    "@tradeshift/elements.checkbox": "^0.19.0",
+    "@tradeshift/elements.header": "^0.19.0",
+    "@tradeshift/elements.modal": "^0.19.0",
+    "@tradeshift/elements.note": "^0.19.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@webcomponents/webcomponentsjs": "^2.5.0",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "serve": "^11.3.0"
+    "serve": "^11.3.2"
   }
 }
