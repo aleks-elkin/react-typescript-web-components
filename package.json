@@ -3,29 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@rooks/use-mutation-observer": "^4.8.0",
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.3",
-    "@testing-library/user-event": "^12.6.2",
-    "@tradeshift/elements": "^0.19.0",
-    "@tradeshift/elements.aside": "^0.19.0",
-    "@tradeshift/elements.board": "^0.19.0",
-    "@tradeshift/elements.button": "^0.19.0",
-    "@tradeshift/elements.button-group": "^0.19.0",
-    "@tradeshift/elements.checkbox": "^0.19.0",
-    "@tradeshift/elements.header": "^0.19.0",
-    "@tradeshift/elements.modal": "^0.19.0",
-    "@tradeshift/elements.note": "^0.19.0",
-    "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.22",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@webcomponents/webcomponentsjs": "^2.5.0",
-    "react": "^17.0.1",
+    "@rooks/use-mutation-observer": "^4.11.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.2.1",
+    "@tradeshift/elements": "^0.30.0",
+    "@tradeshift/elements.aside": "^0.30.0",
+    "@tradeshift/elements.board": "^0.30.0",
+    "@tradeshift/elements.button": "^0.30.0",
+    "@tradeshift/elements.button-group": "^0.30.0",
+    "@tradeshift/elements.checkbox": "^0.30.0",
+    "@tradeshift/elements.header": "^0.30.0",
+    "@tradeshift/elements.modal": "^0.30.0",
+    "@tradeshift/elements.note": "^0.30.0",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.10.3",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "@webcomponents/webcomponentsjs": "^2.6.0",
+    "react": "^17.0.2",
     "react-app-polyfill": "^2.0.0",
-    "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.1",
-    "typescript": "^3.9.7"
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "typescript": "^4.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -52,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "serve": "^11.3.2"
+    "serve": "^12.0.1"
   }
 }
