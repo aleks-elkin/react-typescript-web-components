@@ -2,7 +2,7 @@
   "name": "react-typescript-web-components",
   "version": "0.1.0",
   "private": true,
-	"homepage": "https://aleks-elkin.github.io/react-typescript-web-components/",
+  "homepage": "https://aleks-elkin.github.io/react-typescript-web-components/",
   "dependencies": {
     "@rooks/use-mutation-observer": "^4.11.2",
     "@testing-library/jest-dom": "^5.14.1",
@@ -35,7 +35,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": " serve -s build",
-		"predeploy": "yarn build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -58,7 +58,12 @@
   "devDependencies": {
     "serve": "^12.0.1"
   },
-	"resolutions": {
-    "immer": "^9.0.6"
+  "resolutions": {
+    "ansi-regex": "^5.0.1",
+		"browserslist": "^4.14.2",
+		"glob-parent": "^5.1.2",
+    "immer": "^9.0.6",
+    "nth-check": "^2.0.1",
+    "set-value": "^4.0.1"
   }
 }
