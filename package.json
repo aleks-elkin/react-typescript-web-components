@@ -2,6 +2,7 @@
   "name": "react-typescript-web-components",
   "version": "0.1.0",
   "private": true,
+	"homepage": "https://aleks-elkin.github.io/react-typescript-web-components/",
   "dependencies": {
     "@rooks/use-mutation-observer": "^4.11.2",
     "@testing-library/jest-dom": "^5.14.1",
