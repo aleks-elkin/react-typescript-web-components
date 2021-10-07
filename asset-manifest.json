@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tradeshift-components/static/css/main.8e27df67.chunk.css",
-    "main.js": "/tradeshift-components/static/js/main.993265bc.chunk.js",
-    "main.js.map": "/tradeshift-components/static/js/main.993265bc.chunk.js.map",
-    "runtime-main.js": "/tradeshift-components/static/js/runtime-main.e2f95d11.js",
-    "runtime-main.js.map": "/tradeshift-components/static/js/runtime-main.e2f95d11.js.map",
-    "static/css/2.ff8a5bcd.chunk.css": "/tradeshift-components/static/css/2.ff8a5bcd.chunk.css",
-    "static/js/2.261aaba8.chunk.js": "/tradeshift-components/static/js/2.261aaba8.chunk.js",
-    "static/js/2.261aaba8.chunk.js.map": "/tradeshift-components/static/js/2.261aaba8.chunk.js.map",
-    "index.html": "/tradeshift-components/index.html",
-    "static/css/2.ff8a5bcd.chunk.css.map": "/tradeshift-components/static/css/2.ff8a5bcd.chunk.css.map",
-    "static/css/main.8e27df67.chunk.css.map": "/tradeshift-components/static/css/main.8e27df67.chunk.css.map",
-    "static/js/2.261aaba8.chunk.js.LICENSE.txt": "/tradeshift-components/static/js/2.261aaba8.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/tradeshift-components/static/media/logo.103b5fa1.svg"
+    "main.css": "/static/css/main.8e27df67.chunk.css",
+    "main.js": "/static/js/main.2016f2df.chunk.js",
+    "main.js.map": "/static/js/main.2016f2df.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.91c2fe6e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.91c2fe6e.js.map",
+    "static/css/2.ff8a5bcd.chunk.css": "/static/css/2.ff8a5bcd.chunk.css",
+    "static/js/2.261aaba8.chunk.js": "/static/js/2.261aaba8.chunk.js",
+    "static/js/2.261aaba8.chunk.js.map": "/static/js/2.261aaba8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ff8a5bcd.chunk.css.map": "/static/css/2.ff8a5bcd.chunk.css.map",
+    "static/css/main.8e27df67.chunk.css.map": "/static/css/main.8e27df67.chunk.css.map",
+    "static/js/2.261aaba8.chunk.js.LICENSE.txt": "/static/js/2.261aaba8.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2f95d11.js",
+    "static/js/runtime-main.91c2fe6e.js",
     "static/css/2.ff8a5bcd.chunk.css",
     "static/js/2.261aaba8.chunk.js",
     "static/css/main.8e27df67.chunk.css",
-    "static/js/main.993265bc.chunk.js"
+    "static/js/main.2016f2df.chunk.js"
   ]
 }
