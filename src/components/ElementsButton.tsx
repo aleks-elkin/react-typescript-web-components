@@ -1,24 +1,12 @@
 import React, { FunctionComponent, useRef, useEffect } from "react";
 import "@tradeshift/elements.button";
-import {
-  TSButton,
-  sizes as ButtonSizes,
-  types as ButtonTypes,
-} from "@tradeshift/elements.button";
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      "ts-button": TSButton &
-        React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
-    }
-  }
-}
+import { TSButton } from "@tradeshift/elements.button";
 
 export const ElementsButton: FunctionComponent<{
-  size: ButtonSizes;
-  type: ButtonTypes;
-	icon?: string;
-	disabled?: boolean;
+  size: any;
+  type: any;
+  icon?: string;
+  disabled?: boolean;
   clickHandler?: (e: Event) => void;
 }> = ({ size, type, icon, disabled, clickHandler, children }) => {
   const btnRef = useRef<TSButton & HTMLElement>(null);
@@ -32,29 +20,29 @@ export const ElementsButton: FunctionComponent<{
     return () => {
       ref.removeEventListener("button-click", buttonListener);
     };
-	}, [btnRef, clickHandler]);
-	if(disabled) {
-		return (
-			<ts-button
-				size={size}
-				type={type}
-				ref={btnRef}
-				disabled
-				icon={icon || undefined}
-				onClick={()=> console.log('button clicked!')}
-				grouped
-			>
-				{children}
-			</ts-button>
-		);	
-	}
+  }, [btnRef, clickHandler]);
+  if (disabled) {
+    return (
+      <ts-button
+        size={size}
+        type={type}
+        ref={btnRef}
+        disabled
+        icon={icon || undefined}
+        onClick={() => console.log("button clicked!")}
+        grouped
+      >
+        {children}
+      </ts-button>
+    );
+  }
   return (
     <ts-button
       size={size}
       type={type}
       ref={btnRef}
-			icon={icon || undefined}
-			onClick={()=> console.log('button clicked!')}
+      icon={icon || undefined}
+      onClick={() => console.log("button clicked!")}
       grouped
     >
       {children}

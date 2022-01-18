@@ -1,23 +1,14 @@
-import React, { FunctionComponent, useRef, useState } from "react";
+import React, { FunctionComponent, useRef } from "react";
 import "@tradeshift/elements.aside";
+import { TSAside } from "@tradeshift/elements.aside";
 import useMutationObserver from "@rooks/use-mutation-observer";
-
-declare interface TSAsideProps {
-  dir?: "rtl" | "ltr" | "auto";
-  title?: string;
-  visible?: boolean;
-  busy?: string;
-  noCloseOnEscKey?: boolean;
-  hasFoot?: boolean;
-  hasPlatformObject?: boolean;
-}
 
 export const ElementsAside: FunctionComponent<{
   label: string;
   visible: boolean;
   clickHandler: (visible: boolean) => void;
 }> = ({ label, visible, clickHandler, children }) => {
-  const asideRef = useRef<TSAsideProps & HTMLElement>(null);
+  const asideRef = useRef<TSAside & HTMLElement>(null);
   useMutationObserver(asideRef, (mutations: any) => {
     console.log(mutations);
     if (asideRef.current) {

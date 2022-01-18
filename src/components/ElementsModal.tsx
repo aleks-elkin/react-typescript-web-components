@@ -1,9 +1,6 @@
 import React, { FunctionComponent, useRef, useEffect } from "react";
 import "@tradeshift/elements.modal";
-import {
-  TSModal,
-  customEventNames as ModalEventsNames,
-} from "@tradeshift/elements.modal";
+import { TSModal } from "@tradeshift/elements.modal";
 
 export const ElementsModal: FunctionComponent<{
   size: string;
@@ -21,10 +18,10 @@ export const ElementsModal: FunctionComponent<{
       ref.title = "New title!";
       closeHandler(e);
     };
-    ref.addEventListener(ModalEventsNames.CLOSED, listener);
+    ref.addEventListener("closed", listener);
     // remove event on component unmount
     return () => {
-      ref.removeEventListener(ModalEventsNames.CLOSED, listener);
+      ref.removeEventListener("closed", listener);
     };
   }, [modalRef, closeHandler]);
 

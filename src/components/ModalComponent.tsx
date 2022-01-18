@@ -3,11 +3,6 @@ import { ElementsButton } from "./ElementsButton";
 import { ElementsModal } from "./ElementsModal";
 import { ElementsCheckbox } from "./ElementsCheckbox";
 import { ElementsAside } from "./ElementsAside";
-import { Checkbox } from "./Checkbox";
-import {
-  types as ButtonTypes,
-  sizes as ButtonSizes,
-} from "@tradeshift/elements.button";
 import "@tradeshift/elements.button-group";
 import "@tradeshift/elements.note";
 
@@ -51,16 +46,16 @@ export const ModalComponent = () => {
 
       <div className="button-group">
         <ElementsButton
-          type={ButtonTypes.ACCEPT}
-          size={ButtonSizes.MACRO}
+          type="accept"
+          size="macro"
           clickHandler={clickLeftHandler}
         >
           Click me!
         </ElementsButton>
 
         <ElementsButton
-          type={ButtonTypes.DANGER}
-          size={ButtonSizes.MICRO}
+          type="danger"
+          size="micro"
           clickHandler={clickHandler}
         >
           Do not click!
@@ -75,7 +70,7 @@ export const ModalComponent = () => {
         <ts-note slot="note">Takimata sed sea lorem kasd sit est.</ts-note>
         <span slot="main">Aside content</span>
         <div slot="footer">
-          <ElementsButton type={ButtonTypes.PRIMARY} size={ButtonSizes.MACRO}>
+          <ElementsButton type="primary" size="macro">
             Click
           </ElementsButton>
         </div>

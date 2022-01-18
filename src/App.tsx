@@ -5,10 +5,6 @@ import "./App.css";
 import { ElementsBoard } from "./components/ElementsBoard";
 import { ModalComponent } from "./components/ModalComponent";
 import { ElementsButton } from "./components/ElementsButton";
-import {
-  sizes as ButtonSizes,
-  types as ButtonTypes,
-} from "@tradeshift/elements.button";
 import "@tradeshift/elements.header";
 
 function App() {
@@ -16,8 +12,8 @@ function App() {
     <div className="app">
       <ts-header title="Header" color="white">
         <ElementsButton
-          size={ButtonSizes.MACRO}
-          type={ButtonTypes.SECONDARY}
+          size="macro"
+          type="secondary"
           icon="close-clear"
         ></ElementsButton>
       </ts-header>
